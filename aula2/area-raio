@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int int main() {
+  double raio;
+
+  cin>>raio;
+  // casas decimais
+  cout.precision(2);
+  cout.setf(ios::fixed);
+  cout<< raio*raio*3.14159;
+
+}
